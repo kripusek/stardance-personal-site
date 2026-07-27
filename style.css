@@ -1,10 +1,10 @@
 body {background-image: url(tlo.gif);
 background-repeat: repeat;
 background-attachment: fixed;
-zoom: 300%;
+
 }
-@media (max-width: 768px) {
-body {zoom: 100%;}
+@media (min-width: 900px) {
+body {zoom: 300%;}
 }
 .logo{background-color: rgba(81, 255, 0, 0.726); 
     display: flex;

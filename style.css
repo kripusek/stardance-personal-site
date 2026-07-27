@@ -1,6 +1,7 @@
 body {background-image: url(tlo.gif);
 background-repeat: repeat;
 background-attachment: fixed;
+zoom: 300%;
 }
 
 .logo{background-color: rgba(81, 255, 0, 0.726); 

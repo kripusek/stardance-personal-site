@@ -1,11 +1,14 @@
 body {background-image: url(tlo.gif);
 background-repeat: repeat;
 background-attachment: fixed;
+zoom:300%;
+scrollbar-color: rgba(3, 0, 207, 0.795) rgba(150, 12, 12, 0.418);
+}
+@media (max-width: 768px) {
+body {zoom: 100%;}
+}
 
-}
-@media (min-width: 900px) {
-body {zoom: 300%;}
-}
+
 .logo{background-color: rgba(81, 255, 0, 0.726); 
     display: flex;
     flex-wrap: wrap;
@@ -72,3 +75,15 @@ justify-content: center;
                 max-width: 100%;
                 padding: 8px 14px;
                 border-radius: 7px;} 
+.footer{background-color: rgba(206, 0, 195, 0.418);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: fit-content;
+    max-width: 100%;
+    padding: 8px 14px;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    } 
+    
